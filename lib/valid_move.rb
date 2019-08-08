@@ -2,6 +2,7 @@
 def valid_move?(board, index)
   if board.length < index
     false
+  end
   if position_taken?(board, index)
     false
   else
